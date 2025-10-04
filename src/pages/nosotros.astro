@@ -1,0 +1,317 @@
+---
+// src/pages/nosotros.astro
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Nosotros" description="Conoce la historia de Creaciones de Lujo, nuestra pasión por crear velas y jabones artesanales de calidad.">
+  <!-- Hero Section -->
+  <section class="relative bg-gradient-to-br from-primary/10 via-secondary/20 to-accent/10 py-20 overflow-hidden">
+    <div class="container mx-auto px-4">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h1 class="font-display text-5xl md:text-6xl font-bold text-dark mb-6">
+            Nuestra Historia
+          </h1>
+          <div class="w-24 h-1 bg-primary mb-6"></div>
+          <p class="text-xl text-gray-600 leading-relaxed mb-6">
+            Creaciones de Lujo nació de una pasión por crear productos artesanales que transforman momentos cotidianos en experiencias especiales.
+          </p>
+          <p class="text-lg text-gray-600 leading-relaxed">
+            Cada vela y jabón es elaborado cuidadosamente a mano, utilizando solo ingredientes naturales de la más alta calidad. Creemos que los pequeños detalles hacen la diferencia.
+          </p>
+        </div>
+
+        <div class="relative">
+          <div class="grid grid-cols-2 gap-4">
+            <div class="space-y-4">
+              <img 
+                src="https://www.consumer.es/app/uploads/fly-images/300056/hacer-velas-caseras-1200x550-cc.jpg" 
+                alt="Proceso artesanal" 
+                class="rounded-2xl shadow-xl"
+              />
+              <img 
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLgvwE367TaNy9N1ACFWLhOeDm8ygdVRKnMQ&s" 
+                alt="Jabones naturales" 
+                class="rounded-2xl shadow-xl"
+              />
+            </div>
+            <div class="space-y-4 pt-8">
+              <img 
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-TtK37oTu_kFJiauEeSJnHSoPSKhzEyIk0A&s" 
+                alt="Velas aromáticas" 
+                class="rounded-2xl shadow-xl"
+              />
+              <img 
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRupVvA3mFNPgWeXZXLjwjLlFbOwO_p4vwehw&s" 
+                alt="Ambiente acogedor" 
+                class="rounded-2xl shadow-xl"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Values Section -->
+  <section class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="font-display text-4xl md:text-5xl font-bold text-dark mb-4">
+          Nuestros Valores
+        </h2>
+        <div class="w-24 h-1 bg-primary mx-auto"></div>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="text-center p-8">
+          <div class="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+            <span class="text-4xl">🌿</span>
+          </div>
+          <h3 class="font-display text-2xl font-bold text-dark mb-4">Naturaleza</h3>
+          <p class="text-gray-600">
+            Utilizamos solo ingredientes naturales y orgánicos, sin químicos dañinos. Respetamos el medio ambiente en cada paso de nuestro proceso.
+          </p>
+        </div>
+
+        <div class="text-center p-8">
+          <div class="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+            <span class="text-4xl">💎</span>
+          </div>
+          <h3 class="font-display text-2xl font-bold text-dark mb-4">Calidad</h3>
+          <p class="text-gray-600">
+            Cada producto pasa por rigurosos controles de calidad. No comprometemos la excelencia por cantidad.
+          </p>
+        </div>
+
+        <div class="text-center p-8">
+          <div class="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+            <span class="text-4xl">❤️</span>
+          </div>
+          <h3 class="font-display text-2xl font-bold text-dark mb-4">Pasión</h3>
+          <p class="text-gray-600">
+            Amamos lo que hacemos. Cada creación lleva dedicación, cuidado y amor en cada detalle.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <section class="py-20 bg-gradient-to-br from-secondary/30 to-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="font-display text-4xl md:text-5xl font-bold text-dark mb-4">
+          Nuestro Proceso
+        </h2>
+        <div class="w-24 h-1 bg-primary mx-auto mb-6"></div>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+          Cada producto es resultado de un proceso artesanal cuidadoso y detallado
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="bg-stone-100 p-8 rounded-2xl shadow-lg text-center">
+          <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
+            1
+          </div>
+          <h3 class="font-display text-xl font-bold text-dark mb-3">Selección</h3>
+          <p class="text-gray-600">
+            Elegimos cuidadosamente los mejores ingredientes naturales y orgánicos.
+          </p>
+        </div>
+
+        <div class="bg-stone-100 p-8 rounded-2xl shadow-lg text-center">
+          <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
+            2
+          </div>
+          <h3 class="font-display text-xl font-bold text-dark mb-3">Elaboración</h3>
+          <p class="text-gray-600">
+            Creamos cada producto a mano, siguiendo técnicas tradicionales artesanales.
+          </p>
+        </div>
+
+        <div class="bg-stone-100 p-8 rounded-2xl shadow-lg text-center">
+          <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
+            3
+          </div>
+          <h3 class="font-display text-xl font-bold text-dark mb-3">Control</h3>
+          <p class="text-gray-600">
+            Verificamos la calidad y apariencia de cada pieza antes de empaquetarla.
+          </p>
+        </div>
+
+        <div class="bg-stone-100 p-8 rounded-2xl shadow-lg text-center">
+          <div class="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-6 text-2xl font-bold">
+            4
+          </div>
+          <h3 class="font-display text-xl font-bold text-dark mb-3">Entrega</h3>
+          <p class="text-gray-600">
+            Empacamos con cuidado y entregamos tu pedido con amor y dedicación.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission & Vision Section -->
+  <section class="py-20 bg-white text-center">
+    <div class="container mx-auto px-4">
+      <div class="grid lg:grid-cols-2 gap-12">
+        <div class="bg-gradient-to-br from-primary/10 to-accent/10 p-10 rounded-3xl">
+          <h3 class="font-display text-3xl font-bold text-dark mb-6">Nuestra Misión</h3>
+          <p class="text-lg text-gray-600 leading-relaxed">
+            Crear productos artesanales de la más alta calidad que transformen espacios y cuiden la piel, 
+            utilizando solo ingredientes naturales y procesos sostenibles. Queremos que cada cliente experimente 
+            el lujo de lo natural y lo hecho a mano.
+          </p>
+        </div>
+
+        <div class="bg-gradient-to-br from-accent/10 to-primary/10 p-10 rounded-3xl">
+          <h3 class="font-display text-3xl font-bold text-dark mb-6">Nuestra Visión</h3>
+          <p class="text-lg text-gray-600 leading-relaxed">
+            Ser la marca líder en productos artesanales naturales en Ecuador, reconocida por nuestra excelencia, 
+            innovación y compromiso con el medio ambiente. Aspiramos a llevar nuestras creaciones a hogares 
+            de toda la región.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="py-20 bg-gradient-to-br from-secondary/20 to-primary/5">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="font-display text-4xl md:text-5xl font-bold text-dark mb-4">
+          Conoce al Equipo
+        </h2>
+        <div class="w-24 h-1 bg-primary mx-auto"></div>
+      </div>
+
+      <div class="max-w-4xl mx-auto text-center">
+        <p class="text-xl text-gray-600 leading-relaxed mb-12">
+          Detrás de cada vela y jabón hay un equipo de personas apasionadas que dedican 
+          su tiempo y talento para crear productos excepcionales. Cada miembro aporta su 
+          experiencia única, desde la selección de ingredientes hasta el empaque final.
+        </p>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-white p-6 rounded-2xl shadow-lg">
+            <div class="w-24 h-24 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4 text-4xl">
+              👩‍💼
+            </div>
+            <h2 class="font-display text-lg text-dark">Artesana Lucía Coello</h2>
+            <h4 class="font-display text-xl font-bold text-dark mb-2">Fundadora</h4>
+            <p class="text-gray-600 text-sm">Visión y dirección creativa</p>
+          </div>
+
+          <div class="bg-white p-6 rounded-2xl shadow-lg">
+            <div class="w-24 h-24 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4 text-4xl">
+              👨‍🔬
+            </div>
+            <h2 class="font-display text-lg text-dark">Artesano Jose María Morales</h2>
+            <h4 class="font-display text-xl font-bold text-dark mb-2">Maestro Artesano</h4>
+            <p class="text-gray-600 text-sm">Elaboración y técnica</p>
+          </div>
+
+          <div class="bg-white p-6 rounded-2xl shadow-lg">
+            <div class="w-24 h-24 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4 text-4xl">
+              👩‍💻
+            </div>
+            <h2 class="font-display text-lg text-dark">Lcda. María José Morales</h2>
+            <h4 class="font-display text-xl font-bold text-dark mb-2">Atención al Cliente</h4>
+            <p class="text-gray-600 text-sm">Servicio y soporte</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-16">
+        <h2 class="font-display text-4xl md:text-5xl font-bold text-dark mb-4">
+          Preguntas Frecuentes
+        </h2>
+        <div class="w-24 h-1 bg-primary mx-auto"></div>
+      </div>
+
+      <div class="max-w-3xl mx-auto space-y-4">
+        <details class="bg-gray-50 rounded-xl p-6 cursor-pointer group">
+          <summary class="font-bold text-lg text-dark flex items-center justify-between">
+            ¿Los productos son realmente naturales?
+            <span class="text-primary group-open:rotate-45 transition-transform">+</span>
+          </summary>
+          <p class="text-gray-600 mt-4">
+            Sí, todos nuestros productos están elaborados con ingredientes 100% naturales y orgánicos. 
+            No utilizamos químicos dañinos, parabenos ni conservantes artificiales.
+          </p>
+        </details>
+
+        <details class="bg-gray-50 rounded-xl p-6 cursor-pointer group">
+          <summary class="font-bold text-lg text-dark flex items-center justify-between">
+            ¿Cuánto tiempo duran las velas?
+            <span class="text-primary group-open:rotate-45 transition-transform">+</span>
+          </summary>
+          <p class="text-gray-600 mt-4">
+            Nuestras velas tienen una duración aproximada de 30-40 horas, dependiendo del tamaño y 
+            las condiciones de uso. Para maximizar su duración, recomendamos recortar la mecha antes de cada uso.
+          </p>
+        </details>
+
+        <details class="bg-gray-50 rounded-xl p-6 cursor-pointer group">
+          <summary class="font-bold text-lg text-dark flex items-center justify-between">
+            ¿Hacen entregas a domicilio?
+            <span class="text-primary group-open:rotate-45 transition-transform">+</span>
+          </summary>
+          <p class="text-gray-600 mt-4">
+            Sí, realizamos entregas a todo Guayaquil. El costo de envío varía según la zona. 
+            Contáctanos por WhatsApp para coordinar tu entrega.
+          </p>
+        </details>
+
+        <details class="bg-gray-50 rounded-xl p-6 cursor-pointer group">
+          <summary class="font-bold text-lg text-dark flex items-center justify-between">
+            ¿Puedo personalizar mi pedido?
+            <span class="text-primary group-open:rotate-45 transition-transform">+</span>
+          </summary>
+          <p class="text-gray-600 mt-4">
+            ¡Por supuesto! Ofrecemos personalizaciones en aromas, colores y presentaciones. 
+            Contáctanos para discutir tu proyecto personalizado.
+          </p>
+        </details>
+
+        <details class="bg-gray-50 rounded-xl p-6 cursor-pointer group">
+          <summary class="font-bold text-lg text-dark flex items-center justify-between">
+            ¿Los jabones son aptos para piel sensible?
+            <span class="text-primary group-open:rotate-45 transition-transform">+</span>
+          </summary>
+          <p class="text-gray-600 mt-4">
+            Sí, nuestros jabones son ideales para todo tipo de piel, incluyendo piel sensible. 
+            Tenemos opciones especiales como jabón de caléndula y aloe vera que son especialmente suaves.
+          </p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="py-20 bg-gradient-to-r from-primary to-accent text-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="font-display text-4xl md:text-5xl font-bold mb-6">
+        ¿Quieres Saber Más?
+      </h2>
+      <p class="text-xl mb-8 max-w-2xl mx-auto opacity-90">
+        Estamos aquí para responder tus preguntas y ayudarte a encontrar el producto perfecto
+      </p>
+      <a 
+        href="/contacto" 
+        class="inline-block bg-white text-primary hover:bg-gray-100 font-bold px-10 py-5 rounded-full transition-all duration-300 hover:shadow-2xl hover:scale-105 text-lg"
+      >
+        Contáctanos
+      </a>
+    </div>
+  </section>
+</Layout>
